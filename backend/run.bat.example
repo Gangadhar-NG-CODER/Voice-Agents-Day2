@@ -1,0 +1,9 @@
+@echo off
+REM Copy this file to run.bat and add your API keys
+set LIVEKIT_URL=ws://127.0.0.1:7880
+set LIVEKIT_API_KEY=devkey
+set LIVEKIT_API_SECRET=secret
+set GOOGLE_API_KEY=your_google_api_key_here
+set MURF_API_KEY=your_murf_api_key_here
+set DEEPGRAM_API_KEY=your_deepgram_api_key_here
+uv run python src/agent.py dev
